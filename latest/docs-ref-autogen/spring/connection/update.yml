@@ -48,9 +48,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -122,9 +120,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -234,9 +230,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --kafka-key
     summary: |-
       Kafka API-Key (key).
@@ -319,9 +313,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -424,9 +416,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -529,9 +519,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -634,9 +622,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -739,9 +725,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -844,9 +828,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -948,9 +930,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1047,9 +1027,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1135,9 +1113,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1243,9 +1219,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1353,9 +1327,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1453,9 +1425,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1527,9 +1497,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1602,9 +1570,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1706,9 +1672,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1807,9 +1771,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -1919,9 +1881,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -2021,9 +1981,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -2104,9 +2062,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -2209,9 +2165,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.
@@ -2313,9 +2267,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --id
     summary: |-
       The resource id of the connection. ['--resource-group', '--service', '--app', '--connection'] are required if '--id' is not specified.

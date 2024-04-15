@@ -116,7 +116,7 @@ directCommands:
                                  [--key-vault-private-endpoint-resource-id]
                                  [--ldap-enabled {0, 1, f, false, n, no, t, true, y, yes}]
                                  [--location]
-                                 [--network-features {Basic, Basic_Standard, Standard, Standard_Basic}]
+                                 [--network-features {Basic, Standard}]
                                  [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
                                  [--placement-rules]
                                  [--policy-enforced {0, 1, f, false, n, no, t, true, y, yes}]
@@ -194,7 +194,7 @@ directCommands:
       Backup Enabled.
   - name: --backup-id
     summary: |-
-      UUID v4 or resource identifier used to identify the Backup.
+      Resource identifier used to identify the Backup.
   - name: --backup-policy-id
     summary: |-
       Backup Policy Resource ID.
@@ -310,7 +310,7 @@ directCommands:
       The geo-location where the resource lives  When not specified, the location of the resource group will be used.
   - name: --network-features
     defaultValue: "Basic"
-    parameterValueGroup: "Basic, Basic_Standard, Standard, Standard_Basic"
+    parameterValueGroup: "Basic, Standard"
     summary: |-
       Basic network, or Standard features available to the volume.
   - name: --no-wait
@@ -385,7 +385,7 @@ directCommands:
       If enabled (true) the volume will contain a read-only snapshot directory which provides access to each of the volume's snapshots (defaults to true).
   - name: --snapshot-id
     summary: |-
-      UUID v4 or resource identifier used to identify the Snapshot.
+      Resource identifier used to identify the Snapshot.
   - name: --snapshot-policy-id
     summary: |-
       Snapshot Policy ResourceId.
@@ -727,7 +727,7 @@ directCommands:
   editLink: https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/netappfiles/_help.py
   syntax: >-
     az netappfiles volume delete [--account-name]
-                                 [--force-delete {0, 1, f, false, n, no, t, true, y, yes}]
+                                 [--force {0, 1, f, false, n, no, t, true, y, yes}]
                                  [--ids]
                                  [--name]
                                  [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
@@ -742,7 +742,7 @@ directCommands:
   - name: --account-name -a
     summary: |-
       The name of the NetApp account.
-  - name: --force-delete
+  - name: --force --force-delete
     parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
     summary: |-
       An option to force delete the volume. Will cleanup resources connected to the particular volume.
@@ -1395,7 +1395,6 @@ directCommands:
                                  [--key-vault-private-endpoint-resource-id]
                                  [--ldap-enabled {0, 1, f, false, n, no, t, true, y, yes}]
                                  [--name]
-                                 [--network-features {Basic, Basic_Standard, Standard, Standard_Basic}]
                                  [--no-wait {0, 1, f, false, n, no, t, true, y, yes}]
                                  [--placement-rules]
                                  [--policy-enforced {0, 1, f, false, n, no, t, true, y, yes}]
@@ -1519,10 +1518,6 @@ directCommands:
   - name: --name --volume-name -n -v
     summary: |-
       The name of the volume.
-  - name: --network-features
-    parameterValueGroup: "Basic, Basic_Standard, Standard, Standard_Basic"
-    summary: |-
-      Basic network, or Standard features available to the volume.
   - name: --no-wait
     parameterValueGroup: "0, 1, f, false, n, no, t, true, y, yes"
     summary: |-

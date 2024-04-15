@@ -57,9 +57,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -146,9 +144,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -275,9 +271,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -355,9 +349,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --key-space
     summary: |-
       Name of the keyspace. Required if '--target-id' is not specified.
@@ -483,9 +475,7 @@ directCommands:
       Name of the database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --graph
     summary: |-
       Name of the graph. Required if '--target-id' is not specified.
@@ -610,9 +600,7 @@ directCommands:
       Name of the database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -734,9 +722,7 @@ directCommands:
       Name of the database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -855,9 +841,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -975,9 +959,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --namespace
     summary: |-
       Name of the eventhub namespace. Required if '--target-id' is not specified.
@@ -1101,9 +1083,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --new
     defaultValue: "False"
     parameterValueGroup: "false, true"
@@ -1224,9 +1204,7 @@ directCommands:
       Name of the mysql database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -1331,9 +1309,7 @@ directCommands:
       Name of the mysql flexible database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -1465,9 +1441,7 @@ directCommands:
       Name of postgres database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --new
     defaultValue: "False"
     parameterValueGroup: "false, true"
@@ -1599,9 +1573,7 @@ directCommands:
       Name of postgres flexible database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -1718,9 +1690,7 @@ directCommands:
       Name of the redis database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -1811,9 +1781,7 @@ directCommands:
       Name of the redis enterprise database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -1901,9 +1869,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --namespace
     summary: |-
       Name of the servicebus namespace. Required if '--target-id' is not specified.
@@ -2020,9 +1986,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -2140,9 +2104,7 @@ directCommands:
       Name of the sql database. Required if '--target-id' is not specified.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -2277,9 +2239,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --new
     defaultValue: "False"
     parameterValueGroup: "false, true"
@@ -2399,9 +2359,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -2497,9 +2455,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -2617,9 +2573,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
@@ -2733,9 +2687,7 @@ directCommands:
       The customized keys used to change default configuration names. Key is the original name, value is the customized name.
   - name: --deployment
     summary: |-
-      The deployment name of the app. Note: The default value of `--deployment` is removed. Use `--deployment default` if you want stay in default behavior.
-    isDeprecated: true
-    deprecateInfo: Argument 'deployment' has been deprecated and will be removed in a future release.
+      The deployment name of the app.
   - name: --no-wait
     defaultValue: "False"
     summary: |-
